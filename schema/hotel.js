@@ -13,7 +13,6 @@ module.exports = {
                 faker: 'random.uuid'
             },
             name: {
-
                 type: "string",
                 pattern: hotelNamesPattern,
                 minItems: 1,

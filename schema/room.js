@@ -42,7 +42,7 @@ module.exports = hotelId => {
                     multipleOf: 1
                 }
             },
-            required: ["id", "name", "description", "max_occupancy", "price_in_usd", "hotelId"]
+            required: ["hotelId", "id", "name", "description", "max_occupancy", "price_in_usd"]
         },
     }
 }

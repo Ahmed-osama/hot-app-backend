@@ -7,8 +7,7 @@ module.exports = () => {
     let hotels = jsf.generate(hotelsSchem);
     let rooms = []
     hotels.forEach(hotel => {
-
-        hotelRooms = jsf.generate(roomSchem(hotel.id))
+        let hotelRooms = jsf.generate(roomSchem(hotel.id))
         rooms.push(...hotelRooms)
     });
     return { hotels, rooms }
