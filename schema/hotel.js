@@ -1,4 +1,4 @@
-const hotelNames = require('../helpers').hotelNames
+const { hotelNames } = require('../helpers')
 const hotelNamesPattern = hotelNames.join("|")
 module.exports = {
     type: "array",
@@ -15,7 +15,7 @@ module.exports = {
             name: {
 
                 type: "string",
-                pattern: hotelNames,
+                pattern: hotelNamesPattern,
                 minItems: 1,
                 maxItems: 1,
                 uniqueItems: true
@@ -70,21 +70,7 @@ module.exports = {
             'rating',
             'price_category',
             'amenities',
-            'imagesId'
+            'images'
         ]
     }
 }
-/*{
-    "id": "61c9665f-3c08-45ec-88d3-5029af3269c8",
-    "name" "Developer-friendly hotel",
-    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
-    "distance_to_venue": 800,
-    "rating": 4.6,
-    "price_category": "medium",
-    "amenities": ["free_parking","free_wifi"],
-    "images": [
-        "http://via.placeholder.com/140x100",
-        "http://via.placeholder.com/100x140",
-        "http://via.placeholder.com/140x140"
-    ]
-}*/
