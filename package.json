@@ -1,0 +1,19 @@
+{
+  "name": "trv-venue-hotel-api",
+  "version": "1.0.0",
+  "description": "fake API generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "na"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-osama/trv-venue-hotel-api.git"
+  },
+  "author": "Ahmed Osama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed-osama/trv-venue-hotel-api/issues"
+  },
+  "homepage": "https://github.com/Ahmed-osama/trv-venue-hotel-api#readme"
+}
