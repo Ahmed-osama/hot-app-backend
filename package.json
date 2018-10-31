@@ -4,7 +4,7 @@
   "description": "fake API generator",
   "main": "index.js",
   "scripts": {
-    "test": "na"
+    "start": "json-server --watch db.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Ahmed-osama/trv-venue-hotel-api/issues"
   },
-  "homepage": "https://github.com/Ahmed-osama/trv-venue-hotel-api#readme"
+  "homepage": "https://github.com/Ahmed-osama/trv-venue-hotel-api#readme",
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "json-schema-faker": "^0.5.0-rc16",
+    "json-server": "^0.14.0"
+  }
 }
