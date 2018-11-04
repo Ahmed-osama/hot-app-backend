@@ -25,14 +25,15 @@ module.exports = {
             },
             distance_to_venue: {
                 type: 'number',
-                minimum: 10,
-                maximum: 2000
+                minimum: 100,
+                maximum: 2000,
+                multipleOf: 100
             },
             rating: {
                 type: 'number',
                 minimum: 0,
                 maximum: 5,
-                multipleOf: 0.10
+                multipleOf: 0.1
             },
             price_category: {
                 type: 'string',
