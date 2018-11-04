@@ -55,9 +55,9 @@ module.exports = {
                 items: {
                     type: 'integer',
                     minimum: 1,
-                    maximum: 10
+                    maximum: 26
                 },
-                minItems: 0,
+                minItems: 1,
                 maxItems: 10,
                 uniqueItems: true
             }

@@ -40,9 +40,15 @@ module.exports = hotelId => {
                     minimum: 100,
                     maximum: 1100,
                     multipleOf: 1
+                },
+                image: {
+                    type: 'number',
+                    minimum: 1,
+                    maximum: 26,
+                    multipleOf: 1
                 }
             },
-            required: ["hotelId", "id", "name", "description", "max_occupancy", "price_in_usd"]
+            required: ["hotelId", "id", "name", "description", "max_occupancy", "price_in_usd", "image"]
         },
     }
 }
